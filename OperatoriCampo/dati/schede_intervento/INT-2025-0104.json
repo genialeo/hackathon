@@ -1,0 +1,16 @@
+{
+  "id_intervento": "INT-2025-0104",
+  "tipo": "emergenza_gas",
+  "stato": "da_iniziare",
+  "priorita": "critica",
+  "data_assegnazione": "2025-02-17T07:00:00",
+  "sla_completamento": "2025-02-17T08:00:00",
+  "cliente": {
+    "nome": "Sara Martinelli",
+    "telefono": "349 5544332",
+    "indirizzo": "Via Mazzini 7, 35100 Padova (PD)",
+    "pdr": "IT001G66778899"
+  },
+  "dettaglio": "Odore gas vicino caldaia nel bagno. Cliente ha chiuso rubinetto generale e aperto finestre. Caldaia funzionava normalmente prima della segnalazione. Subentro recente (1 settimana fa), impianto non verificato.",
+  "note_operative": "Piano terra, accesso diretto da strada. Caldaia murale nel bagno. Rubinetto generale gas nel vano contatori esterno."
+}

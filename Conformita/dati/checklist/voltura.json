@@ -1,0 +1,37 @@
+{
+  "tipo_pratica": "voltura",
+  "nome": "Voltura titolarita' contratto fornitura",
+  "normativa_riferimento": ["Delibera ARERA 302/2016", "Codice del Consumo D.Lgs 206/2005"],
+  "documenti_richiesti": [
+    {"codice": "DOC-01", "nome": "Documento di identita' nuovo intestatario", "obbligatorio": true, "note": "In corso di validita'"},
+    {"codice": "DOC-02", "nome": "Codice fiscale nuovo intestatario", "obbligatorio": true},
+    {"codice": "DOC-03", "nome": "Documento di identita' vecchio intestatario", "obbligatorio": true, "note": "Non richiesto in caso di decesso"},
+    {"codice": "DOC-04", "nome": "Titolo di occupazione immobile", "obbligatorio": true, "note": "Proprieta', locazione, comodato o dichiarazione sostitutiva"},
+    {"codice": "DOC-05", "nome": "Certificato di morte", "obbligatorio": false, "note": "Solo per voltura mortis causa"},
+    {"codice": "DOC-06", "nome": "Dichiarazione sostitutiva atto notorieta'", "obbligatorio": false, "note": "Solo per voltura mortis causa, in alternativa a successione"},
+    {"codice": "DOC-07", "nome": "Modulo di voltura firmato", "obbligatorio": true, "note": "Firmato da entrambi gli intestatari (o solo dal nuovo in caso di decesso)"},
+    {"codice": "DOC-08", "nome": "Ultima bolletta pagata", "obbligatorio": false, "note": "Consigliata per velocizzare la pratica"}
+  ],
+  "dati_obbligatori": [
+    {"campo": "nome_nuovo_intestatario", "descrizione": "Nome e cognome nuovo intestatario"},
+    {"campo": "codice_fiscale_nuovo", "descrizione": "Codice fiscale nuovo intestatario"},
+    {"campo": "nome_vecchio_intestatario", "descrizione": "Nome e cognome vecchio intestatario"},
+    {"campo": "pod_pdr", "descrizione": "Codice POD o PDR dell'utenza"},
+    {"campo": "indirizzo_fornitura", "descrizione": "Indirizzo del punto di fornitura"},
+    {"campo": "tipo_voltura", "descrizione": "ordinaria o mortis_causa"},
+    {"campo": "recapito_telefonico", "descrizione": "Telefono nuovo intestatario"},
+    {"campo": "email", "descrizione": "Email nuovo intestatario"},
+    {"campo": "autolettura", "descrizione": "Lettura contatore alla data di voltura"}
+  ],
+  "vincoli": [
+    {"codice": "VIN-01", "descrizione": "La voltura non puo' essere effettuata se ci sono morosita' pendenti sul punto di fornitura, salvo voltura mortis causa"},
+    {"codice": "VIN-02", "descrizione": "Per voltura mortis causa, il richiedente deve essere erede o avente diritto"},
+    {"codice": "VIN-03", "descrizione": "Il modulo deve essere firmato da entrambi gli intestatari per voltura ordinaria"},
+    {"codice": "VIN-04", "descrizione": "La voltura deve essere completata entro 5 giorni lavorativi dalla richiesta completa"}
+  ],
+  "tempistiche_normative": {
+    "completamento_gg_lavorativi": 5,
+    "costo_voltura_ordinaria_eur": 27.03,
+    "costo_voltura_mortis_causa_eur": 0.00
+  }
+}

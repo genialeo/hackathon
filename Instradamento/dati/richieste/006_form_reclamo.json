@@ -1,0 +1,15 @@
+{
+  "canale": "form_web",
+  "timestamp": "2025-02-13T11:30:00+01:00",
+  "campi": {
+    "nome_cognome": "Alessandro Conti",
+    "email": "a.conti.78@gmail.com",
+    "telefono": "011 9988776",
+    "codice_fiscale": "CNTLSN78D15L219P",
+    "oggetto": "RECLAMO - Doppia fatturazione",
+    "messaggio": "Sono FURIOSO. Mi avete mandato DUE bollette per lo stesso periodo (ottobre-novembre 2024), bolletta 2025-BP-00847291 e bolletta 2025-BP-00847295. Ho pagato la prima in domiciliazione e adesso mi mandate un sollecito per la seconda che e' un DUPLICATO! Voglio il rimborso immediato e una spiegazione. Se non risolvete entro 5 giorni vado all'ARERA. Codice cliente 512.738.004.",
+    "codice_cliente_attuale": "512.738.004",
+    "priorita_selezionata": "urgente",
+    "allegati": ["bolletta_2025-BP-00847291.pdf", "bolletta_2025-BP-00847295.pdf", "ricevuta_pagamento.pdf"]
+  }
+}

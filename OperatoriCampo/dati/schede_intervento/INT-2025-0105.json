@@ -1,0 +1,12 @@
+{
+  "id_intervento": "INT-2025-0105",
+  "tipo": "verifica_cabina",
+  "stato": "da_iniziare",
+  "priorita": "alta",
+  "data_assegnazione": "2025-02-17T09:00:00",
+  "sla_completamento": "2025-02-17T15:00:00",
+  "cliente": null,
+  "zona": "Via Garibaldi 22, 50123 Firenze",
+  "dettaglio": "Segnalazione notturna di scintille e fumo dalla cabina MT/BT 'Firenze-Garibaldi-05'. VVF intervenuti e hanno messo in sicurezza. Cabina attualmente disalimentata. Verificare stato trasformatore e apparecchiature MT, valutare possibilita' rialimentazione.",
+  "note_operative": "Cabina su suolo pubblico, accesso da marciapiede. Chiave: set F-05. VVF hanno confermato assenza pericolo residuo. 47 utenze a valle attualmente senza corrente."
+}

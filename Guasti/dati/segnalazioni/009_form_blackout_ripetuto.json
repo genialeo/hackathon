@@ -1,0 +1,17 @@
+{
+  "canale": "form_web",
+  "timestamp": "2025-02-13T10:00:00+01:00",
+  "campi": {
+    "nome_cognome": "Francesca Moretti",
+    "email": "francesca.moretti82@outlook.com",
+    "telefono": "051 2233445",
+    "codice_fiscale": "MRTFNC82S52A944K",
+    "codice_cliente": "701.445.882",
+    "pod_pdr": "IT001E33445566",
+    "indirizzo": "Via Indipendenza 33, 40121 Bologna (BO)",
+    "oggetto": "Terzo blackout in una settimana",
+    "messaggio": "E' la TERZA volta in una settimana che rimango senza corrente. Lunedi' scorso 4 ore, mercoledi' 2 ore, e stamattina di nuovo. Ogni volta devo buttare il cibo nel freezer. Ho gia' chiamato due volte e mi avete detto che era un problema di zona risolto, ma evidentemente non e' cosi'. Voglio sapere cosa sta succedendo e quando risolvete definitivamente. La prossima volta faccio reclamo all'ARERA.",
+    "priorita_selezionata": "urgente",
+    "segnalazioni_precedenti": ["TKT-2025-0891", "TKT-2025-0923"]
+  }
+}

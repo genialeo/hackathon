@@ -1,0 +1,28 @@
+{
+  "id_pratica": "PRA-2025-001",
+  "tipo_pratica": "allaccio_nuovo",
+  "data_presentazione": "2025-01-15",
+  "stato": "da_verificare",
+  "richiedente": {
+    "nome": "Marco Verdi",
+    "codice_fiscale": "VRDMRC85T15F205Q",
+    "recapito_telefonico": "339 1234567",
+    "email": "marco.verdi@email.it"
+  },
+  "dati_fornitura": {
+    "indirizzo_fornitura": "Via Garibaldi 10, 50123 Firenze (FI)",
+    "comune": "Firenze",
+    "potenza_richiesta_kw": 3.0,
+    "tensione": "BT",
+    "uso": "domestico_residente",
+    "dati_catastali": "Foglio 45, Particella 123, Sub 4"
+  },
+  "documenti_allegati": [
+    {"codice": "DOC-01", "nome": "Carta identita'", "presente": true, "data_scadenza": "2028-05-20"},
+    {"codice": "DOC-02", "nome": "Codice fiscale", "presente": true},
+    {"codice": "DOC-03", "nome": "Atto di proprieta'", "presente": true, "tipo": "atto_notarile", "data": "2024-12-01"},
+    {"codice": "DOC-04", "nome": "Permesso di costruire", "presente": true, "numero": "PdC 2024/1234", "data": "2024-06-15"},
+    {"codice": "DOC-05", "nome": "Dichiarazione conformita'", "presente": true, "installatore": "Elettrica Rossi Srl", "data": "2025-01-10"},
+    {"codice": "DOC-06", "nome": "Planimetria", "presente": true}
+  ]
+}

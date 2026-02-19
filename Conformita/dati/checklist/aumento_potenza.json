@@ -1,0 +1,31 @@
+{
+  "tipo_pratica": "aumento_potenza",
+  "nome": "Aumento potenza contrattuale",
+  "normativa_riferimento": ["Delibera ARERA 646/2015", "TICA - Testo Integrato Connessioni Attive"],
+  "documenti_richiesti": [
+    {"codice": "DOC-01", "nome": "Documento di identita' intestatario", "obbligatorio": true},
+    {"codice": "DOC-02", "nome": "Codice fiscale intestatario", "obbligatorio": true},
+    {"codice": "DOC-03", "nome": "Dichiarazione di conformita' impianto", "obbligatorio": true, "note": "Necessaria se l'aumento supera 6 kW o se l'impianto e' stato modificato"},
+    {"codice": "DOC-04", "nome": "Modulo richiesta aumento potenza", "obbligatorio": true}
+  ],
+  "dati_obbligatori": [
+    {"campo": "nome_intestatario", "descrizione": "Nome e cognome intestatario contratto"},
+    {"campo": "codice_fiscale", "descrizione": "Codice fiscale"},
+    {"campo": "pod", "descrizione": "Codice POD"},
+    {"campo": "potenza_attuale_kw", "descrizione": "Potenza attualmente impegnata"},
+    {"campo": "potenza_richiesta_kw", "descrizione": "Nuova potenza richiesta"},
+    {"campo": "motivazione", "descrizione": "Motivo della richiesta di aumento"},
+    {"campo": "recapito_telefonico", "descrizione": "Telefono"}
+  ],
+  "vincoli": [
+    {"codice": "VIN-01", "descrizione": "Per uso domestico, potenza max 6 kW in monofase. Oltre 6 kW richiede trifase."},
+    {"codice": "VIN-02", "descrizione": "Se la potenza richiesta supera la potenza disponibile in cabina, potrebbe essere necessario un adeguamento della rete (lavori complessi)."},
+    {"codice": "VIN-03", "descrizione": "La dichiarazione di conformita' e' obbligatoria per potenze > 6 kW."},
+    {"codice": "VIN-04", "descrizione": "Il contributo di connessione e' calcolato in base alla differenza di potenza."}
+  ],
+  "tempistiche_normative": {
+    "lavori_semplici_gg_lavorativi": 15,
+    "lavori_complessi_gg_lavorativi": 60,
+    "contributo_per_kw_aggiuntivo_eur": 69.36
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "codice_cliente": "903.112.567",
+  "nome": "Marco De Luca",
+  "codice_fiscale": "DLCMRC88P22F839T",
+  "indirizzo": "Via XX Settembre 15, 16121 Genova (GE)",
+  "tipo_cliente": "domestico_residente",
+  "nucleo_familiare": 2,
+  "note_cliente": "Molto attento all'ambiente. Ha pannelli solari (3 kWp) con scambio sul posto. Interessato a offerte 100% rinnovabili.",
+  "fornitura_luce": {
+    "pod": "IT001E77889900",
+    "potenza_impegnata_kw": 3.0,
+    "potenza_disponibile_kw": 3.3,
+    "offerta_attuale": "VoltaNova Smart Home",
+    "fornitore_attuale": "VoltaNova Energia S.p.A.",
+    "prezzo_attuale_f1_eur_kwh": 0.099,
+    "prezzo_attuale_f23_eur_kwh": 0.087,
+    "quota_fissa_annua_eur": 66.00,
+    "scadenza_offerta": "30/09/2025",
+    "storico_consumi_kwh": {
+      "2024-01": 180, "2024-02": 170, "2024-03": 140,
+      "2024-04": 80, "2024-05": 50, "2024-06": 40,
+      "2024-07": 60, "2024-08": 70, "2024-09": 90,
+      "2024-10": 150, "2024-11": 170, "2024-12": 190
+    },
+    "consumo_annuo_kwh": 1390,
+    "ripartizione_fasce": {"f1_percentuale": 45, "f23_percentuale": 55}
+  },
+  "fornitura_gas": null
+}

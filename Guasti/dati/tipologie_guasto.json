@@ -1,0 +1,112 @@
+{
+  "tipologie": [
+    {
+      "codice": "BLACKOUT",
+      "nome": "Interruzione totale corrente",
+      "descrizione": "Mancanza completa di energia elettrica nell'abitazione o nella zona.",
+      "gravita_default": "critica",
+      "sla_ore": 4,
+      "richiede_intervento_campo": true,
+      "team_competente": "squadra-pronto-intervento",
+      "indicatori": ["corrente assente", "contatore spento", "blackout", "senza luce", "manca corrente", "non arriva corrente"],
+      "domande_triage": [
+        "Il problema riguarda solo la sua abitazione o anche i vicini?",
+        "Ha verificato che il salvavita/interruttore generale sia in posizione ON?",
+        "Ci sono persone con esigenze mediche particolari?"
+      ]
+    },
+    {
+      "codice": "BASSA_TENSIONE",
+      "nome": "Tensione insufficiente / sfarfallii",
+      "descrizione": "Tensione elettrica instabile, luci che sfarfallano, elettrodomestici che non funzionano correttamente.",
+      "gravita_default": "media",
+      "sla_ore": 24,
+      "richiede_intervento_campo": true,
+      "team_competente": "squadra-manutenzione",
+      "indicatori": ["sfarfallio", "luci tremolano", "bassa tensione", "tensione bassa", "elettrodomestici non funzionano", "corrente debole"],
+      "domande_triage": [
+        "Da quanto tempo si verifica il problema?",
+        "Il problema e' costante o intermittente?",
+        "Quali elettrodomestici sono interessati?"
+      ]
+    },
+    {
+      "codice": "CONTATORE_DIFETTOSO",
+      "nome": "Malfunzionamento contatore",
+      "descrizione": "Contatore che non funziona correttamente: display spento, rumori anomali, letture errate.",
+      "gravita_default": "media",
+      "sla_ore": 48,
+      "richiede_intervento_campo": true,
+      "team_competente": "squadra-manutenzione",
+      "indicatori": ["contatore rotto", "display spento", "rumore contatore", "ronzio", "lettura errata", "contatore non funziona"],
+      "domande_triage": [
+        "Il contatore emette rumori anomali?",
+        "Il display del contatore e' acceso?",
+        "Ha notato consumi anomali nelle ultime bollette?"
+      ]
+    },
+    {
+      "codice": "DISPERSIONE",
+      "nome": "Dispersione elettrica",
+      "descrizione": "Salvavita che scatta ripetutamente, possibile dispersione nell'impianto.",
+      "gravita_default": "alta",
+      "sla_ore": 12,
+      "richiede_intervento_campo": true,
+      "team_competente": "squadra-pronto-intervento",
+      "indicatori": ["salvavita scatta", "differenziale scatta", "dispersione", "interruttore scatta", "corrente salta"],
+      "domande_triage": [
+        "Il salvavita scatta immediatamente o dopo qualche minuto?",
+        "Ha provato a staccare tutti gli elettrodomestici e riattaccarli uno alla volta?",
+        "Il problema si verifica con un elettrodomestico specifico?"
+      ]
+    },
+    {
+      "codice": "GUASTO_GAS",
+      "nome": "Perdita o odore di gas",
+      "descrizione": "Odore di gas, sospetta perdita dalla rete o dal contatore.",
+      "gravita_default": "critica",
+      "sla_ore": 1,
+      "richiede_intervento_campo": true,
+      "team_competente": "squadra-emergenza-gas",
+      "indicatori": ["odore gas", "perdita gas", "puzza gas", "fuga gas", "gas aperto"],
+      "domande_triage": [
+        "ATTENZIONE: ha chiuso il rubinetto generale del gas?",
+        "Ha aperto le finestre per arieggiare?",
+        "NON accenda luci, fiammiferi o apparecchi elettrici!",
+        "Si allontani dall'abitazione se l'odore e' forte."
+      ],
+      "nota_sicurezza": "In caso di forte odore di gas, consigliare SEMPRE di chiamare i Vigili del Fuoco (115) e allontanarsi."
+    },
+    {
+      "codice": "GUASTO_RETE",
+      "nome": "Guasto infrastruttura di rete",
+      "descrizione": "Problema sulla rete di distribuzione: cavi danneggiati, cabina guasta, palo pericolante.",
+      "gravita_default": "critica",
+      "sla_ore": 6,
+      "richiede_intervento_campo": true,
+      "team_competente": "squadra-pronto-intervento",
+      "indicatori": ["cavo scoperto", "cavo a terra", "palo pericolante", "cabina elettrica", "scintille", "arco elettrico", "trasformatore"],
+      "domande_triage": [
+        "Ci sono cavi a terra o scoperti? Se si', NON si avvicini!",
+        "Il problema e' su suolo pubblico o privato?",
+        "Ci sono persone in pericolo nelle vicinanze?"
+      ],
+      "nota_sicurezza": "In caso di cavi a terra o pericolo imminente, consigliare di chiamare i Vigili del Fuoco (115) e mantenere distanza di sicurezza."
+    },
+    {
+      "codice": "ALTRO",
+      "nome": "Altro problema tecnico",
+      "descrizione": "Problema tecnico non classificabile nelle categorie precedenti.",
+      "gravita_default": "bassa",
+      "sla_ore": 72,
+      "richiede_intervento_campo": false,
+      "team_competente": "supporto-tecnico-remoto",
+      "indicatori": [],
+      "domande_triage": [
+        "Puo' descrivere il problema nel dettaglio?",
+        "Da quando si verifica?",
+        "Ha gia' provato qualche soluzione?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id_pratica": "PRA-2025-002",
+  "tipo_pratica": "allaccio_nuovo",
+  "data_presentazione": "2025-01-20",
+  "stato": "da_verificare",
+  "richiedente": {
+    "nome": "Laura Santini",
+    "codice_fiscale": "SNTLRA92D45H501",
+    "recapito_telefonico": "340 9876543",
+    "email": null
+  },
+  "dati_fornitura": {
+    "indirizzo_fornitura": "Via Roma 5, Napoli",
+    "comune": "Napoli",
+    "potenza_richiesta_kw": 8.0,
+    "tensione": "BT",
+    "uso": "domestico_residente",
+    "dati_catastali": null
+  },
+  "documenti_allegati": [
+    {"codice": "DOC-01", "nome": "Carta identita'", "presente": true, "data_scadenza": "2024-11-30"},
+    {"codice": "DOC-02", "nome": "Codice fiscale", "presente": true},
+    {"codice": "DOC-03", "nome": "Contratto locazione", "presente": false},
+    {"codice": "DOC-04", "nome": "Permesso di costruire", "presente": false},
+    {"codice": "DOC-05", "nome": "Dichiarazione conformita'", "presente": true, "installatore": "Impianti Bianchi", "data": "2024-10-15"},
+    {"codice": "DOC-06", "nome": "Planimetria", "presente": false}
+  ]
+}

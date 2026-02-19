@@ -1,0 +1,16 @@
+{
+  "canale": "form_web",
+  "timestamp": "2025-02-12T08:15:00+01:00",
+  "campi": {
+    "nome_cognome": "Anna Maria Colombo",
+    "email": "am.colombo@pec.it",
+    "telefono": "02 33445566",
+    "codice_fiscale": "CLMNNM68R41F205L",
+    "codice_cliente": "604.332.118",
+    "pod_pdr": "IT001E22334455",
+    "indirizzo": "Via Padova 55, 20131 Milano (MI)",
+    "oggetto": "Luci che sfarfallano e lavatrice che non parte",
+    "messaggio": "Da 3 giorni le luci di casa sfarfallano continuamente. La lavatrice non riesce a partire, si blocca subito. Anche il frigorifero fa un rumore strano come se faticasse. Ho chiesto ai vicini e anche loro hanno problemi simili. Sono una signora anziana che vive sola e ho paura che ci sia un problema serio.",
+    "priorita_selezionata": "alta"
+  }
+}

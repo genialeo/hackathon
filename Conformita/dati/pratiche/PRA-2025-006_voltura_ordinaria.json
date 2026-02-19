@@ -1,0 +1,28 @@
+{
+  "id_pratica": "PRA-2025-006",
+  "tipo_pratica": "voltura",
+  "data_presentazione": "2025-02-12",
+  "stato": "da_verificare",
+  "richiedente": {
+    "nome": "Elena Costa",
+    "codice_fiscale": "CSTLNE88D45F205M",
+    "recapito_telefonico": "349 5544332",
+    "email": "elena.costa@icloud.com"
+  },
+  "dati_voltura": {
+    "tipo_voltura": "ordinaria",
+    "nome_vecchio_intestatario": "Giovanni Martini",
+    "pod_pdr": "IT001E12345678",
+    "indirizzo_fornitura": "Via Marconi 15, 20121 Milano (MI)",
+    "autolettura": null
+  },
+  "documenti_allegati": [
+    {"codice": "DOC-01", "nome": "Carta identita' nuovo intestatario", "presente": true, "data_scadenza": "2029-07-20"},
+    {"codice": "DOC-02", "nome": "Codice fiscale nuovo intestatario", "presente": true},
+    {"codice": "DOC-03", "nome": "Carta identita' vecchio intestatario", "presente": false},
+    {"codice": "DOC-04", "nome": "Contratto di locazione", "presente": true, "data": "2025-02-01"},
+    {"codice": "DOC-07", "nome": "Modulo voltura firmato", "presente": true, "firmato_nuovo": true, "firmato_vecchio": false},
+    {"codice": "DOC-08", "nome": "Ultima bolletta pagata", "presente": false}
+  ],
+  "note": "Morosita' pendente di EUR 234.50 sul punto di fornitura."
+}

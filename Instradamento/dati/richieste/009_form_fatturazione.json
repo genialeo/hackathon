@@ -1,0 +1,14 @@
+{
+  "canale": "form_web",
+  "timestamp": "2025-02-14T09:00:00+01:00",
+  "campi": {
+    "nome_cognome": "Anna Maria Colombo",
+    "email": "am.colombo@pec.it",
+    "telefono": "02 33445566",
+    "codice_fiscale": "CLMNNM68R41F205L",
+    "oggetto": "Richiesta rateizzazione bolletta",
+    "messaggio": "Buongiorno, ho ricevuto una bolletta di conguaglio di euro 487,30 (n. 2025-LU-00998877) che non riesco a pagare in un'unica soluzione. Sono una pensionata con reddito limitato. E' possibile rateizzare l'importo? Quante rate posso fare? Il mio codice cliente e' 604.332.118, POD IT001E22334455. Grazie.",
+    "codice_cliente_attuale": "604.332.118",
+    "priorita_selezionata": "normale"
+  }
+}

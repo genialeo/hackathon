@@ -1,0 +1,29 @@
+{
+  "codice_cliente": "BIZ.445.001",
+  "nome": "Studio Legale Associato Martini & Partners",
+  "codice_fiscale": "MRTGNN65M15F205A",
+  "partita_iva": "IT12345678901",
+  "indirizzo": "Via Montenapoleone 8, 20121 Milano (MI)",
+  "tipo_cliente": "business",
+  "note_cliente": "Studio legale con 8 dipendenti. Ufficio 120mq con aria condizionata. Consumi concentrati in orario lavorativo (F1).",
+  "fornitura_luce": {
+    "pod": "IT001E11223344",
+    "potenza_impegnata_kw": 6.0,
+    "potenza_disponibile_kw": 6.6,
+    "offerta_attuale": "Energia Impresa Base",
+    "fornitore_attuale": "AltroFornitore S.p.A.",
+    "prezzo_attuale_f1_eur_kwh": 0.105,
+    "prezzo_attuale_f23_eur_kwh": 0.090,
+    "quota_fissa_annua_eur": 144.00,
+    "scadenza_offerta": "31/01/2025",
+    "storico_consumi_kwh": {
+      "2024-01": 420, "2024-02": 400, "2024-03": 380,
+      "2024-04": 360, "2024-05": 350, "2024-06": 480,
+      "2024-07": 550, "2024-08": 520, "2024-09": 450,
+      "2024-10": 390, "2024-11": 400, "2024-12": 380
+    },
+    "consumo_annuo_kwh": 5080,
+    "ripartizione_fasce": {"f1_percentuale": 75, "f23_percentuale": 25}
+  },
+  "fornitura_gas": null
+}

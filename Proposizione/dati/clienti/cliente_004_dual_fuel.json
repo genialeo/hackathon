@@ -1,0 +1,36 @@
+{
+  "codice_cliente": "512.738.004",
+  "nome": "Alessandro Conti",
+  "codice_fiscale": "CNTLSN78D15L219P",
+  "indirizzo": "Corso Vittorio Emanuele II 54, 10123 Torino (TO)",
+  "tipo_cliente": "domestico_residente",
+  "nucleo_familiare": 2,
+  "note_cliente": "Coppia senza figli. Ha luce e gas con fornitori diversi, vorrebbe semplificare.",
+  "fornitura_luce": {
+    "pod": "IT001E55667788",
+    "potenza_impegnata_kw": 4.5,
+    "potenza_disponibile_kw": 5.0,
+    "offerta_attuale": "SoleLuce Risparmio+",
+    "fornitore_attuale": "SoleLuce Energia S.p.A.",
+    "prezzo_attuale_f1_eur_kwh": 0.108,
+    "prezzo_attuale_f23_eur_kwh": 0.092,
+    "quota_fissa_annua_eur": 72.00,
+    "scadenza_offerta": "28/02/2025",
+    "storico_consumi_kwh": {
+      "2024-01": 250, "2024-02": 230, "2024-03": 210,
+      "2024-04": 190, "2024-05": 170, "2024-06": 200,
+      "2024-07": 260, "2024-08": 280, "2024-09": 220,
+      "2024-10": 210, "2024-11": 240, "2024-12": 260
+    },
+    "consumo_annuo_kwh": 2720,
+    "ripartizione_fasce": {"f1_percentuale": 50, "f23_percentuale": 50}
+  },
+  "fornitura_gas": {
+    "pdr": "IT001G88990011",
+    "offerta_attuale": "Gas Variabile Plus",
+    "fornitore_attuale": "AltroGas S.r.l.",
+    "prezzo_attuale_eur_smc": 0.92,
+    "quota_fissa_annua_eur": 75.00,
+    "consumo_annuo_smc": 1100
+  }
+}

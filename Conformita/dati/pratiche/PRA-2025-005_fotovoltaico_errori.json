@@ -1,0 +1,36 @@
+{
+  "id_pratica": "PRA-2025-005",
+  "tipo_pratica": "connessione_fotovoltaico",
+  "data_presentazione": "2025-02-10",
+  "stato": "da_verificare",
+  "richiedente": {
+    "nome": "Marco De Luca",
+    "codice_fiscale": "DLCMRC88P22F839T",
+    "recapito_telefonico": "340 1122334",
+    "email": "marco.deluca88@yahoo.it"
+  },
+  "dati_impianto": {
+    "pod": "IT001E77889900",
+    "indirizzo_impianto": "Via XX Settembre 15, 16121 Genova (GE)",
+    "potenza_nominale_kwp": 6.0,
+    "potenza_immissione_kw": 6.0,
+    "tipo_connessione": "Scambio sul Posto",
+    "marca_modello_moduli": "SunPower Maxeon 3 - 400W",
+    "marca_modello_inverter": "SMA Sunny Boy 6.0",
+    "numero_moduli": 15,
+    "data_fine_lavori": "2025-01-28"
+  },
+  "documenti_allegati": [
+    {"codice": "DOC-01", "nome": "Carta identita'", "presente": true, "data_scadenza": "2030-01-15"},
+    {"codice": "DOC-02", "nome": "Codice fiscale", "presente": true},
+    {"codice": "DOC-03", "nome": "Schema unifilare", "presente": true, "firmato_tecnico": false},
+    {"codice": "DOC-04", "nome": "Relazione tecnica", "presente": true},
+    {"codice": "DOC-05", "nome": "Dichiarazione conformita' DM 37/08", "presente": true, "data": "2025-01-25"},
+    {"codice": "DOC-06", "nome": "Certificato collaudo inverter", "presente": false},
+    {"codice": "DOC-07", "nome": "Comunicazione al Comune (PAS)", "presente": true, "data": "2024-11-20"},
+    {"codice": "DOC-08", "nome": "Scheda tecnica moduli", "presente": true},
+    {"codice": "DOC-09", "nome": "Scheda tecnica inverter", "presente": false},
+    {"codice": "DOC-10", "nome": "Regolamento di esercizio", "presente": true, "firmato_titolare": true, "firmato_tecnico": false}
+  ],
+  "note": "Potenza contatore attuale: 3.3 kW disponibili. Potenza immissione richiesta: 6 kW."
+}

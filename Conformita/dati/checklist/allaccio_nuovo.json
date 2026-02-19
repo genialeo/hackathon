@@ -1,0 +1,39 @@
+{
+  "tipo_pratica": "allaccio_nuovo",
+  "nome": "Nuovo allaccio alla rete elettrica BT",
+  "normativa_riferimento": ["Delibera ARERA 646/2015", "Testo Integrato Connessioni Attive (TICA)", "Codice di Rete Enel Distribuzione"],
+  "documenti_richiesti": [
+    {"codice": "DOC-01", "nome": "Documento di identita' richiedente", "obbligatorio": true, "note": "In corso di validita'"},
+    {"codice": "DOC-02", "nome": "Codice fiscale richiedente", "obbligatorio": true},
+    {"codice": "DOC-03", "nome": "Titolo di proprieta' o contratto di locazione", "obbligatorio": true, "note": "Atto notarile, contratto registrato o dichiarazione sostitutiva"},
+    {"codice": "DOC-04", "nome": "Permesso di costruire o SCIA", "obbligatorio": true, "note": "Per nuove costruzioni. Non richiesto per immobili esistenti con agibilita'."},
+    {"codice": "DOC-05", "nome": "Dichiarazione di conformita' impianto elettrico", "obbligatorio": true, "note": "Rilasciata da installatore abilitato ai sensi DM 37/08"},
+    {"codice": "DOC-06", "nome": "Planimetria con punto di consegna", "obbligatorio": true, "note": "Indicare posizione desiderata del contatore"},
+    {"codice": "DOC-07", "nome": "Delega con documento delegante", "obbligatorio": false, "note": "Solo se la richiesta e' presentata da un delegato"}
+  ],
+  "dati_obbligatori": [
+    {"campo": "nome_richiedente", "descrizione": "Nome e cognome del richiedente"},
+    {"campo": "codice_fiscale", "descrizione": "Codice fiscale (16 caratteri)"},
+    {"campo": "indirizzo_fornitura", "descrizione": "Indirizzo completo del punto di consegna"},
+    {"campo": "comune", "descrizione": "Comune dell'immobile"},
+    {"campo": "potenza_richiesta_kw", "descrizione": "Potenza richiesta in kW"},
+    {"campo": "tensione", "descrizione": "Livello di tensione (BT)"},
+    {"campo": "uso", "descrizione": "Uso domestico residente / non residente / altri usi"},
+    {"campo": "dati_catastali", "descrizione": "Foglio, particella, subalterno"},
+    {"campo": "recapito_telefonico", "descrizione": "Numero di telefono"},
+    {"campo": "email", "descrizione": "Indirizzo email"}
+  ],
+  "vincoli": [
+    {"codice": "VIN-01", "descrizione": "La potenza richiesta per uso domestico non puo' superare 6 kW in BT monofase"},
+    {"codice": "VIN-02", "descrizione": "La dichiarazione di conformita' deve essere successiva alla data di fine lavori"},
+    {"codice": "VIN-03", "descrizione": "Il documento di identita' deve essere in corso di validita' alla data della richiesta"},
+    {"codice": "VIN-04", "descrizione": "Per potenze > 6 kW e' necessaria la connessione trifase"},
+    {"codice": "VIN-05", "descrizione": "Il tempo massimo per il preventivo dal distributore e' 20 giorni lavorativi dalla richiesta completa"}
+  ],
+  "tempistiche_normative": {
+    "preventivo_distributore_gg_lavorativi": 20,
+    "realizzazione_lavori_semplici_gg_lavorativi": 15,
+    "realizzazione_lavori_complessi_gg_lavorativi": 60,
+    "attivazione_dopo_lavori_gg_lavorativi": 2
+  }
+}

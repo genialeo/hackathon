@@ -1,0 +1,36 @@
+{
+  "codice_cliente": "888.223.445",
+  "nome": "Roberto Esposito",
+  "codice_fiscale": "SPRRT75H12F839V",
+  "indirizzo": "Via Toledo 120, 80134 Napoli (NA)",
+  "tipo_cliente": "domestico_residente",
+  "nucleo_familiare": 6,
+  "note_cliente": "Famiglia numerosa (4 figli). Casa grande, 2 condizionatori, lavatrice e asciugatrice in uso frequente. Consumi molto elevati.",
+  "fornitura_luce": {
+    "pod": "IT001E44556677",
+    "potenza_impegnata_kw": 4.5,
+    "potenza_disponibile_kw": 5.0,
+    "offerta_attuale": "Luce Standard Mercato Libero",
+    "fornitore_attuale": "AltroFornitore S.p.A.",
+    "prezzo_attuale_f1_eur_kwh": 0.112,
+    "prezzo_attuale_f23_eur_kwh": 0.098,
+    "quota_fissa_annua_eur": 84.00,
+    "scadenza_offerta": "30/04/2025",
+    "storico_consumi_kwh": {
+      "2024-01": 380, "2024-02": 360, "2024-03": 320,
+      "2024-04": 290, "2024-05": 270, "2024-06": 350,
+      "2024-07": 480, "2024-08": 510, "2024-09": 370,
+      "2024-10": 330, "2024-11": 350, "2024-12": 400
+    },
+    "consumo_annuo_kwh": 4410,
+    "ripartizione_fasce": {"f1_percentuale": 45, "f23_percentuale": 55}
+  },
+  "fornitura_gas": {
+    "pdr": "IT001G99001122",
+    "offerta_attuale": "Gas Casa Base",
+    "fornitore_attuale": "AltroFornitore S.p.A.",
+    "prezzo_attuale_eur_smc": 0.90,
+    "quota_fissa_annua_eur": 72.00,
+    "consumo_annuo_smc": 1400
+  }
+}

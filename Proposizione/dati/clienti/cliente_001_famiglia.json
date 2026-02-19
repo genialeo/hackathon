@@ -1,0 +1,29 @@
+{
+  "codice_cliente": "804.291.337",
+  "nome": "Lucia Ferrara",
+  "codice_fiscale": "FRRLCU80A41F205P",
+  "indirizzo": "Via Marconi 15, 20121 Milano (MI)",
+  "tipo_cliente": "domestico_residente",
+  "nucleo_familiare": 4,
+  "note_cliente": "Famiglia con 2 figli. Anziano convivente con apparecchiature elettromedicali.",
+  "fornitura_luce": {
+    "pod": "IT001E12345678",
+    "potenza_impegnata_kw": 3.0,
+    "potenza_disponibile_kw": 3.3,
+    "offerta_attuale": "EcoVerde Luce Sicura",
+    "fornitore_attuale": "EcoVerde Energia S.p.A.",
+    "prezzo_attuale_f1_eur_kwh": 0.102,
+    "prezzo_attuale_f23_eur_kwh": 0.089,
+    "quota_fissa_annua_eur": 78.00,
+    "scadenza_offerta": "30/06/2025",
+    "storico_consumi_kwh": {
+      "2024-01": 280, "2024-02": 260, "2024-03": 230,
+      "2024-04": 200, "2024-05": 180, "2024-06": 220,
+      "2024-07": 310, "2024-08": 340, "2024-09": 240,
+      "2024-10": 220, "2024-11": 250, "2024-12": 290
+    },
+    "consumo_annuo_kwh": 3020,
+    "ripartizione_fasce": {"f1_percentuale": 55, "f23_percentuale": 45}
+  },
+  "fornitura_gas": null
+}

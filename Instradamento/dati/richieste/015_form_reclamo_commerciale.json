@@ -1,0 +1,15 @@
+{
+  "canale": "form_web",
+  "timestamp": "2025-02-16T17:45:00+01:00",
+  "campi": {
+    "nome_cognome": "Vincenzo Amato",
+    "email": "v.amato@virgilio.it",
+    "telefono": "081 5566778",
+    "codice_fiscale": "MTAVNC65S22F839Q",
+    "oggetto": "Contratto attivato senza consenso",
+    "messaggio": "Mi e' stato attivato un contratto di fornitura luce senza il mio consenso. Un vostro agente si e' presentato a casa dicendo che doveva solo verificare il contatore e invece mi ritrovo con un contratto HCT Energia attivo. Non ho mai firmato nulla. Voglio l'annullamento immediato del contratto e il ripristino del mio vecchio fornitore. Se necessario procedero' per vie legali. Il POD e' IT001E55443322, mi avete assegnato il codice cliente 992.114.003.",
+    "codice_cliente_attuale": "992.114.003",
+    "priorita_selezionata": "urgente",
+    "allegati": ["denuncia_polizia.pdf"]
+  }
+}

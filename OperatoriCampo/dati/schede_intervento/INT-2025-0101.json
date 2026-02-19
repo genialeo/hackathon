@@ -1,0 +1,17 @@
+{
+  "id_intervento": "INT-2025-0101",
+  "tipo": "sostituzione_contatore",
+  "stato": "da_iniziare",
+  "priorita": "media",
+  "data_assegnazione": "2025-02-17T08:00:00",
+  "sla_completamento": "2025-02-17T17:00:00",
+  "cliente": {
+    "nome": "Giulia Bianchi",
+    "codice_cliente": "701.445.882",
+    "telefono": "06 77889900",
+    "indirizzo": "Via Appia Nuova 128, 00183 Roma (RM)",
+    "pod": "IT001E98765432"
+  },
+  "dettaglio": "Sostituzione contatore elettromeccanico con nuovo contatore elettronico Open Meter. Contatore attuale: matricola 4578123, lettura stimata 12.950 kWh. Cliente avvisato, appuntamento ore 10:00.",
+  "note_operative": "Accesso dal cortile interno, citofono 'Bianchi'. Contatore nel vano scala piano terra."
+}

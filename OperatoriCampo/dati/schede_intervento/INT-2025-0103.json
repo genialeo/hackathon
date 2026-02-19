@@ -1,0 +1,12 @@
+{
+  "id_intervento": "INT-2025-0103",
+  "tipo": "riparazione_guasto_rete",
+  "stato": "da_iniziare",
+  "priorita": "critica",
+  "data_assegnazione": "2025-02-17T07:30:00",
+  "sla_completamento": "2025-02-17T11:30:00",
+  "cliente": null,
+  "zona": "Via Marconi 15-25, 20121 Milano",
+  "dettaglio": "Blackout che interessa 3 palazzi in Via Marconi (civici 15, 19, 25). Segnalazioni multiple da stamattina ore 6:30. Probabile guasto su linea BT in uscita da cabina 'Milano-Marconi-12'. Presenza anziano con elettromedicali al civico 15.",
+  "note_operative": "Cabina 'Milano-Marconi-12' accessibile da Via Boccaccio 3 (retro). Chiave cabina: set C-12. Coordinamento con Centro Operativo Milano per eventuale disalimentazione tratta."
+}

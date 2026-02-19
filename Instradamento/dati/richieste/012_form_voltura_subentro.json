@@ -1,0 +1,13 @@
+{
+  "canale": "form_web",
+  "timestamp": "2025-02-15T14:00:00+01:00",
+  "campi": {
+    "nome_cognome": "Sara Martinelli",
+    "email": "sara.martinelli@gmail.com",
+    "telefono": "349 5544332",
+    "codice_fiscale": "MRTSRA92C45D969H",
+    "oggetto": "Subentro nuova abitazione",
+    "messaggio": "Ho appena acquistato un appartamento in Via Mazzini 7, Padova. Il contatore e' staccato (il vecchio proprietario aveva disdetto). Devo fare un subentro. Il POD dovrebbe essere IT001E66778899. Vorrei anche sapere quali offerte avete per nuovi clienti e i tempi di attivazione. Ho bisogno della luce entro 2 settimane perche' devo traslocare.",
+    "priorita_selezionata": "alta"
+  }
+}

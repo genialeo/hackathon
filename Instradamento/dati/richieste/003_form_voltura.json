@@ -1,0 +1,14 @@
+{
+  "canale": "form_web",
+  "timestamp": "2025-02-12T10:15:00+01:00",
+  "campi": {
+    "nome_cognome": "Roberto Esposito",
+    "email": "r.esposito@libero.it",
+    "telefono": "347 8899001",
+    "codice_fiscale": "SPRRT75H12F839V",
+    "oggetto": "Voltura utenza luce",
+    "messaggio": "Buongiorno, devo effettuare la voltura dell'utenza luce intestata a mio padre (deceduto il mese scorso). Il POD e' IT001E55667788, l'indirizzo e' Corso Vittorio Emanuele II 54, Torino. Ho gia' il certificato di morte e la dichiarazione sostitutiva. Come devo procedere? Quali documenti servono esattamente?",
+    "codice_cliente_attuale": "512.738.004",
+    "priorita_selezionata": "normale"
+  }
+}

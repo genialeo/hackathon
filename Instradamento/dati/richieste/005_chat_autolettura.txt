@@ -1,0 +1,9 @@
+[Chat Telegram Bot - 13/02/2025 09:10]
+Utente: /autolettura
+Bot: Benvenuto! Inserisci il tuo codice cliente.
+Utente: 903.112.567
+Bot: Codice cliente trovato. Inserisci la lettura attuale del contatore.
+Utente: 20.587
+Bot: Confermi la lettura 20.587 kWh per il POD IT001E77889900?
+Utente: si confermo
+Utente: ah senta volevo anche sapere quando scade la mia offerta VoltaNova Smart Home perche' mi hanno detto che ci sono offerte migliori in giro

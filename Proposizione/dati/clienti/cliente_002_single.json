@@ -1,0 +1,29 @@
+{
+  "codice_cliente": "701.445.882",
+  "nome": "Giulia Bianchi",
+  "codice_fiscale": "BNCGLI90A41H501X",
+  "indirizzo": "Via Appia Nuova 128, 00183 Roma (RM)",
+  "tipo_cliente": "domestico_residente",
+  "nucleo_familiare": 1,
+  "note_cliente": "Single, lavora fuori casa tutto il giorno. Consumi bassi.",
+  "fornitura_luce": {
+    "pod": "IT001E98765432",
+    "potenza_impegnata_kw": 3.0,
+    "potenza_disponibile_kw": 3.3,
+    "offerta_attuale": "BluPower Flex Casa",
+    "fornitore_attuale": "BluPower Italia S.p.A.",
+    "prezzo_attuale_f1_eur_kwh": 0.115,
+    "prezzo_attuale_f23_eur_kwh": 0.095,
+    "quota_fissa_annua_eur": 84.00,
+    "scadenza_offerta": "31/03/2025",
+    "storico_consumi_kwh": {
+      "2024-01": 120, "2024-02": 110, "2024-03": 100,
+      "2024-04": 90, "2024-05": 85, "2024-06": 95,
+      "2024-07": 130, "2024-08": 140, "2024-09": 105,
+      "2024-10": 100, "2024-11": 115, "2024-12": 125
+    },
+    "consumo_annuo_kwh": 1315,
+    "ripartizione_fasce": {"f1_percentuale": 35, "f23_percentuale": 65}
+  },
+  "fornitura_gas": null
+}

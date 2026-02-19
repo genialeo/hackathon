@@ -1,0 +1,14 @@
+{
+  "canale": "form_web",
+  "timestamp": "2025-02-14T18:30:00+01:00",
+  "campi": {
+    "nome_cognome": "Sara Martinelli",
+    "email": "sara.martinelli@gmail.com",
+    "telefono": "349 5544332",
+    "codice_fiscale": "MRTSRA92C45D969H",
+    "indirizzo": "Via Mazzini 7, 35100 Padova (PD)",
+    "oggetto": "Odore gas vicino caldaia",
+    "messaggio": "Sento un leggero odore di gas vicino alla caldaia nel bagno. Non e' fortissimo ma c'e'. La caldaia funziona normalmente. Ho chiuso il rubinetto del gas per sicurezza e aperto la finestra. Non so se il problema e' della caldaia o del tubo del gas. PDR IT001G66778899. Non ho un codice cliente perche' ho appena fatto il subentro la settimana scorsa.",
+    "priorita_selezionata": "alta"
+  }
+}

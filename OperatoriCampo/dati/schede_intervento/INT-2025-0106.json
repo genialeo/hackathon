@@ -1,0 +1,17 @@
+{
+  "id_intervento": "INT-2025-0106",
+  "tipo": "verifica_bassa_tensione",
+  "stato": "da_iniziare",
+  "priorita": "media",
+  "data_assegnazione": "2025-02-17T10:00:00",
+  "sla_completamento": "2025-02-18T10:00:00",
+  "cliente": {
+    "nome": "Anna Maria Colombo",
+    "codice_cliente": "604.332.118",
+    "telefono": "02 33445566",
+    "indirizzo": "Via Padova 55, 20131 Milano (MI)",
+    "pod": "IT001E22334455"
+  },
+  "dettaglio": "Sfarfallio luci e lavatrice che non parte da 3 giorni. Problema confermato anche dai vicini. Probabile bassa tensione di zona. Verificare tensione al contatore e in cabina di zona 'Milano-Padova-08'.",
+  "note_operative": "Signora anziana che vive sola, molto preoccupata. Contatore al piano terra nel vano comune. Cabina 'Milano-Padova-08' in Via Porpora 12."
+}

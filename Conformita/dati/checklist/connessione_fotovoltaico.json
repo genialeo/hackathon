@@ -1,0 +1,45 @@
+{
+  "tipo_pratica": "connessione_fotovoltaico",
+  "nome": "Connessione impianto fotovoltaico in Scambio sul Posto",
+  "normativa_riferimento": ["Delibera ARERA 315/2020", "TICA", "Regole Tecniche di Connessione CEI 0-21", "D.Lgs 199/2021"],
+  "documenti_richiesti": [
+    {"codice": "DOC-01", "nome": "Documento di identita' richiedente", "obbligatorio": true},
+    {"codice": "DOC-02", "nome": "Codice fiscale richiedente", "obbligatorio": true},
+    {"codice": "DOC-03", "nome": "Schema elettrico unifilare impianto FV", "obbligatorio": true, "note": "Firmato da tecnico abilitato"},
+    {"codice": "DOC-04", "nome": "Relazione tecnica impianto", "obbligatorio": true, "note": "Con calcolo producibilita' attesa"},
+    {"codice": "DOC-05", "nome": "Dichiarazione di conformita' impianto FV", "obbligatorio": true, "note": "DM 37/08, rilasciata da installatore abilitato"},
+    {"codice": "DOC-06", "nome": "Certificato collaudo inverter", "obbligatorio": true, "note": "Conformita' CEI 0-21"},
+    {"codice": "DOC-07", "nome": "Comunicazione al Comune (PAS o CILA)", "obbligatorio": true, "note": "Procedura Abilitativa Semplificata o CILA a seconda della potenza"},
+    {"codice": "DOC-08", "nome": "Scheda tecnica moduli fotovoltaici", "obbligatorio": true},
+    {"codice": "DOC-09", "nome": "Scheda tecnica inverter", "obbligatorio": true},
+    {"codice": "DOC-10", "nome": "Regolamento di esercizio firmato", "obbligatorio": true, "note": "Allegato al TICA"},
+    {"codice": "DOC-11", "nome": "Richiesta di connessione al GSE", "obbligatorio": false, "note": "Per Scambio sul Posto, da inviare al GSE dopo l'allaccio"}
+  ],
+  "dati_obbligatori": [
+    {"campo": "nome_richiedente", "descrizione": "Nome e cognome"},
+    {"campo": "codice_fiscale", "descrizione": "Codice fiscale"},
+    {"campo": "pod", "descrizione": "Codice POD dell'utenza esistente"},
+    {"campo": "indirizzo_impianto", "descrizione": "Indirizzo di installazione"},
+    {"campo": "potenza_nominale_kwp", "descrizione": "Potenza nominale impianto FV in kWp"},
+    {"campo": "potenza_immissione_kw", "descrizione": "Potenza massima di immissione in rete"},
+    {"campo": "tipo_connessione", "descrizione": "Scambio sul Posto o Cessione Totale"},
+    {"campo": "marca_modello_moduli", "descrizione": "Marca e modello moduli FV"},
+    {"campo": "marca_modello_inverter", "descrizione": "Marca e modello inverter"},
+    {"campo": "numero_moduli", "descrizione": "Numero totale moduli installati"},
+    {"campo": "data_fine_lavori", "descrizione": "Data completamento installazione"}
+  ],
+  "vincoli": [
+    {"codice": "VIN-01", "descrizione": "Per impianti <= 20 kWp su edificio esistente e' sufficiente la PAS (Procedura Abilitativa Semplificata)"},
+    {"codice": "VIN-02", "descrizione": "L'inverter deve essere conforme alla norma CEI 0-21 e avere le protezioni di interfaccia integrate"},
+    {"codice": "VIN-03", "descrizione": "La potenza di immissione non puo' superare la potenza disponibile del contatore"},
+    {"codice": "VIN-04", "descrizione": "Il regolamento di esercizio deve essere firmato dal titolare e dal tecnico"},
+    {"codice": "VIN-05", "descrizione": "La dichiarazione di conformita' deve coprire sia l'impianto FV che il sistema di protezione di interfaccia"},
+    {"codice": "VIN-06", "descrizione": "Per Scambio sul Posto, la richiesta al GSE deve essere inviata entro 60 giorni dalla data di connessione"}
+  ],
+  "tempistiche_normative": {
+    "preventivo_distributore_gg_lavorativi": 20,
+    "realizzazione_lavori_semplici_gg_lavorativi": 30,
+    "attivazione_gg_lavorativi": 5,
+    "richiesta_gse_entro_gg": 60
+  }
+}

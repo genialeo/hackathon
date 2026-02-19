@@ -1,0 +1,36 @@
+{
+  "codice_cliente": "604.332.118",
+  "nome": "Anna Maria Colombo",
+  "codice_fiscale": "CLMNNM68R41F205L",
+  "indirizzo": "Via Padova 55, 20131 Milano (MI)",
+  "tipo_cliente": "domestico_residente",
+  "nucleo_familiare": 1,
+  "note_cliente": "Pensionata, reddito limitato. Cerca la massima economia. Non usa internet, preferisce bollettino postale.",
+  "fornitura_luce": {
+    "pod": "IT001E22334455",
+    "potenza_impegnata_kw": 3.0,
+    "potenza_disponibile_kw": 3.3,
+    "offerta_attuale": "Servizio Elettrico Nazionale (Tutela)",
+    "fornitore_attuale": "Servizio Elettrico Nazionale",
+    "prezzo_attuale_f1_eur_kwh": 0.110,
+    "prezzo_attuale_f23_eur_kwh": 0.110,
+    "quota_fissa_annua_eur": 0.00,
+    "scadenza_offerta": null,
+    "storico_consumi_kwh": {
+      "2024-01": 140, "2024-02": 130, "2024-03": 120,
+      "2024-04": 100, "2024-05": 90, "2024-06": 100,
+      "2024-07": 130, "2024-08": 135, "2024-09": 110,
+      "2024-10": 115, "2024-11": 125, "2024-12": 145
+    },
+    "consumo_annuo_kwh": 1440,
+    "ripartizione_fasce": {"f1_percentuale": 60, "f23_percentuale": 40}
+  },
+  "fornitura_gas": {
+    "pdr": "IT001G55667788",
+    "offerta_attuale": "Gas Tutela",
+    "fornitore_attuale": "Servizio Tutela Gas",
+    "prezzo_attuale_eur_smc": 0.95,
+    "quota_fissa_annua_eur": 80.00,
+    "consumo_annuo_smc": 650
+  }
+}

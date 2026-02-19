@@ -1,0 +1,28 @@
+{
+  "id_pratica": "PRA-2025-003",
+  "tipo_pratica": "voltura",
+  "data_presentazione": "2025-02-01",
+  "stato": "da_verificare",
+  "richiedente": {
+    "nome": "Roberto Esposito",
+    "codice_fiscale": "SPRRT75H12F839V",
+    "recapito_telefonico": "347 8899001",
+    "email": "r.esposito@libero.it"
+  },
+  "dati_voltura": {
+    "tipo_voltura": "mortis_causa",
+    "nome_vecchio_intestatario": "Antonio Esposito",
+    "pod_pdr": "IT001E55667788",
+    "indirizzo_fornitura": "Corso Vittorio Emanuele II 54, 10123 Torino (TO)",
+    "autolettura": 29550
+  },
+  "documenti_allegati": [
+    {"codice": "DOC-01", "nome": "Carta identita' nuovo intestatario", "presente": true, "data_scadenza": "2029-03-15"},
+    {"codice": "DOC-02", "nome": "Codice fiscale nuovo intestatario", "presente": true},
+    {"codice": "DOC-03", "nome": "Carta identita' vecchio intestatario", "presente": false, "nota": "Deceduto"},
+    {"codice": "DOC-05", "nome": "Certificato di morte", "presente": true, "data": "2025-01-10"},
+    {"codice": "DOC-06", "nome": "Dichiarazione sostitutiva atto notorieta'", "presente": false},
+    {"codice": "DOC-07", "nome": "Modulo voltura firmato", "presente": true},
+    {"codice": "DOC-04", "nome": "Dichiarazione sostitutiva occupazione immobile", "presente": true}
+  ]
+}

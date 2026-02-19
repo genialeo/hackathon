@@ -1,0 +1,17 @@
+{
+  "id_intervento": "INT-2025-0102",
+  "tipo": "verifica_dispersione",
+  "stato": "da_iniziare",
+  "priorita": "alta",
+  "data_assegnazione": "2025-02-17T08:00:00",
+  "sla_completamento": "2025-02-17T14:00:00",
+  "cliente": {
+    "nome": "Giuseppe Romano",
+    "codice_cliente": "755.889.221",
+    "telefono": "338 7766554",
+    "indirizzo": "Via Dante 8, 00185 Roma (RM)",
+    "pod": "IT001E99887766"
+  },
+  "dettaglio": "Cliente segnala salvavita che scatta 3-4 volte al giorno da quando ha installato pompa di calore (ottobre 2024). Elettricista privato ha verificato impianto OK. Potenza attuale 3 kW, probabilmente insufficiente. Verificare dispersione e valutare necessita' aumento potenza.",
+  "note_operative": "Secondo piano senza ascensore. Pompa di calore marca Daikin installata sul balcone."
+}

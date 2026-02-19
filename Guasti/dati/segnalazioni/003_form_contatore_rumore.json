@@ -1,0 +1,16 @@
+{
+  "canale": "form_web",
+  "timestamp": "2025-02-11T09:30:00+01:00",
+  "campi": {
+    "nome_cognome": "Paolo Neri",
+    "email": "paolo.neri82@gmail.com",
+    "telefono": "333 9988776",
+    "codice_fiscale": "NREPLA82B10F205K",
+    "codice_cliente": "804.291.337",
+    "pod_pdr": "IT001E12345678",
+    "indirizzo": "Via Marconi 15, 20121 Milano (MI)",
+    "oggetto": "Contatore fa rumore strano",
+    "messaggio": "Il contatore emette un ronzio continuo molto forte, soprattutto di notte. Inoltre la luce in casa va e viene, tipo sfarfallio. Sono preoccupato che possa prendere fuoco. Il problema va avanti da circa una settimana ma sta peggiorando.",
+    "priorita_selezionata": "alta"
+  }
+}

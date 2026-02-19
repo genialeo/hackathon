@@ -1,0 +1,36 @@
+{
+  "codice_cliente": "755.889.221",
+  "nome": "Giuseppe Romano",
+  "codice_fiscale": "RMNGPP70A15H501R",
+  "indirizzo": "Via Dante 8, 00185 Roma (RM)",
+  "tipo_cliente": "domestico_residente",
+  "nucleo_familiare": 3,
+  "note_cliente": "Ha installato pompa di calore a ottobre 2024. Lamenta frequenti distacchi del salvavita. Potenza attuale insufficiente.",
+  "fornitura_luce": {
+    "pod": "IT001E99887766",
+    "potenza_impegnata_kw": 3.0,
+    "potenza_disponibile_kw": 3.3,
+    "offerta_attuale": "HCT Click Luce Verde",
+    "fornitore_attuale": "HCT Energia S.p.A.",
+    "prezzo_attuale_f1_eur_kwh": 0.098,
+    "prezzo_attuale_f23_eur_kwh": 0.085,
+    "quota_fissa_annua_eur": 72.00,
+    "scadenza_offerta": "31/12/2025",
+    "storico_consumi_kwh": {
+      "2024-01": 210, "2024-02": 200, "2024-03": 180,
+      "2024-04": 160, "2024-05": 150, "2024-06": 170,
+      "2024-07": 200, "2024-08": 210, "2024-09": 180,
+      "2024-10": 380, "2024-11": 420, "2024-12": 480
+    },
+    "consumo_annuo_kwh": 2940,
+    "ripartizione_fasce": {"f1_percentuale": 40, "f23_percentuale": 60}
+  },
+  "fornitura_gas": {
+    "pdr": "IT001G44556677",
+    "offerta_attuale": "Gas Tutela",
+    "fornitore_attuale": "Servizio Tutela Gas",
+    "prezzo_attuale_eur_smc": 0.95,
+    "quota_fissa_annua_eur": 80.00,
+    "consumo_annuo_smc": 850
+  }
+}
